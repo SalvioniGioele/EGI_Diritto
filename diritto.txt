@@ -1,0 +1,586 @@
+DIRITTO CONCETTI CHIAVE
+============================================================================
+Lezione 1 (Responsabilità Internet Service Provider (ISP))
+
+Decreto legislativo 9 aprile 2003 n.70
+
+LEGGE COMUNITARIA
+-ARTICOLO 17 (Assenza dell'obbligo generale di sorveglianza) 
+    L'ISP (Internet Service Provider) non è obbligato a sorvegliare i tipi di dati che memorizza, tanto meno a 
+    ricercare attivamente attività illecite.
+    a) Nonostante ciò deve fornire senza indugio le informazioni alle autorità competenti, qualora sia a 
+        conoscenza di presunti atti illeciti.
+    b) A richiesta delle autorità, deve fornire senza indugio le informazioni in suo possesso che permettano 
+        di identificare il destinatario del proprio servizio al fine di identificare atti illeciti.
+    c) L'ISP è considerato civilmente responsabile se, nel caso in cui alla richiesta delle autorità 
+        competenti, non abbia agito prontamente per impedire l'accesso ai contenuti illeciti da lui ospitati e 
+        non abbia informato le autorità.
+DIRETTIVA 2000/31/CE
+-ARTICOLO 14 (Mere conduit) 
+    L'ISP NON È RESPONSABILE delle informazioni trasmesse se, nel trasmettere informazioni fornite 
+    dal destinatario del servizio o nel fornire un accesso alle reti di comunicazione, non abbia:
+    a) Dato origine alla trasmissione.
+    b) Selezionato il destinatario della trasmissione.
+    c) Modificato o selezionato le informazioni trasmesse.
+    Le attività di trasmissione includono la memorizzazione automatica, intermedia e transitoria delle 
+    informazioni trasmesse, tale trasmissione sulla rete non deve eccedere un tempo RAGIONEVOLE per la 
+    trasmissione stessa.
+    Le autorità competenti possono esigere, anche per via d'urgenza, che l'ISP impedisca o ponga fine 
+    all'accesso alle violazioni commesse.
+-ARTICOLO 15 (Responsabilità nell'attività di memorizzazione temporanea, caching) 
+    L'ISP nella trasmissione di informazioni NON È RESPONSABILE della memorizzazione automatica, intermedia e 
+    temporanea di tali informazioni effettuata solo per rendere più efficace la successiva trasmissione di 
+    informazioni a patto che:
+    a) Non modifichi le informazioni.
+    b) Agisca prontamente alla rimozione di tali informazioni non appena venga a conoscenza del fatto che 
+        queste sono state rimosse dal luogo in cui si trovavano inizialmente nella rete, o sia stato disabilitato 
+        l'accesso oppure un organo delle autorità competenti ne abbia disposto la rimozione/disabilitazione.
+-Dal CONSIDERANDO n.42 delle direttive del CE (Consiglio Europeo) tali responsabilità si applicano ESCLUSIVAMENTE 
+    se l'ISP si limiti al processo tecnico di attivare e fornire accesso ad una rete di comunicazione sulla 
+    quale sono trasmesse le informazioni messe a disposizione da terzi; tale attività è puramente tecnica/passiva 
+    perciò l'ISP non conosce ne controlla le informazioni trasmesse o memorizzate.
+-ARTICOLO 16 (Hosting) 
+    L'ISP, nella memorizzazione delle informazioni fornite dal destinatario del servizio, NON È RESPONSABILE delle 
+    informazioni salvate a richiesta del destinatario a patto che:
+    a) Non sia a conoscenza che l'attività o le informazioni siano illecite.
+    b) Non appena a conoscenza di tali fatti, agisca alla rimozione di tali contenuti per impedire l'accesso.
+-È legittimo il provvedimento cautelare nel caso in cui, nonostante le ripetute segnalazioni da parte 
+    dell'intermediario della presenza di contenuti protetti, l'ISP non si sia attivato immediatamente per 
+    rimuovere detti contenuti.
+    Infatti l'ISP non e obbligato ad eseguire un attività di sorveglianza delle informazioni trasmesse e della 
+    loro eventuale illiceità, ma è suo obbligo rimuoverle immediatamente nel caso in cui venga a conoscenza della 
+    illiceità delle informazioni su comunicazione del titolare dei diritti (NON È NECESSARIA UN'AUTORITÀ 
+    COMPETENTE).
+    L'inattività dell'ISP, nonostante le segnalazioni dei detentori dei diritti, lo rende colposamente 
+    responsabile.
+
+-Youtube contro Mediaset
+    È legittimo il provvedimento cautelare con cui si ordini ad un host provider la rimozione dei frammenti 
+    audiovisivi di un'opera protetta abusivamente diffusi via internet. Impone all'host passivo (lezione 2) 
+    l'obbligo di rimuovere immediatamente i contenuti illeciti segnalati del proprietario dei diritti.
+-Mediaset contro Yahoo
+    
+============================================================================
+Lezione 2 (Responsabilità ISP / Documento Informatico e Firme Elettroniche)
+
+-ARTICOLO 13 (Impedimento della condivisione illegale di contenuti protetti) 
+    del testo di "Riforma del diritto d'autore nel mercato unico digitale"
+    L'ISP che forniscono comunicazione al pubblico DEVONO ottenere l'autorizzazione per la messa a
+    disposizione di contenuti dai TITOLARI dei diritti d'autore.
+    Ciò copre anche la responsabilità per le opere caricate dagli utenti che non generano reddito significativo.
+-Dal CONSIDERANDO n.62 alcuni ISP sono concepiti in modo da dare al pubblico un accesso a contenuti o altri 
+    materiali protetti dal diritto d'autore (es. prestatore di servizi di condivisione di contenuti online), 
+    perciò l'ISP di questo genere dovrebbe comprendere unicamente servizi che svolgono un ruolo importante nel 
+    mercato online.
+    Questa direttiva riguarda gli ISP che come scopo principale hanno quello di permettere agli utenti di 
+    caricare/condividere un gran numero di contenuti al fine di trarne profitto in modo diretto/indiretto,
+    promuovendoli per attirare un pubblico più vasto.
+    Questi ISP non dovrebbero comprendere servizi diversi da quelli detti sopra.
+    Vengono esclusi da tale definizione: 
+        * Servizi cloud.
+        * Piattaforme di sviluppo di software open source.
+        * Servizi di divulgazione scientifica ed a scopi didattici.
+    Ossia tutti quei servizi senza scopo di lucro.
+-Vengono distinti due tipi di Hosting:
+        1) Hosting ATTIVO: non è più un attività meramente tecnica, ma realizza una condotta attiva 
+            concorrendo alla commissione dell'illecito.
+        2) Hosting PASSIVO: attivita puramente tecnica/passiva.
+    1) Un HOST è ritenuto ATTIVO quando COMPLETA E ARRICCHISCE la fruizione dei contenuti caricati dagli utenti 
+        compiendo una delle seguenti operazioni: filtro, selezione, indicizzazione, organizzazione, 
+        catalogazione, valutazione, uso, modifica, promozione dei contenuti; oppure quando adotta una condotta 
+        di valutazione del comportamento degli utenti per aumentare la fidelizzazione.
+        In questi casi allora si applicano le regole comuni della responsabilità civile valida per qualsiasi 
+        soggetto giuridico che commette un illecito.
+    2) Un HOST PASSIVO è ritenuto responsabile se, non ha provveduto all'immediata rimozione dei contenuti 
+        illeciti o per aver continuato a pubblicarli, in tali situazioni:
+        * Concede l'accesso al pubblico ad opere protette dal diritto d'autore o altri materiali protetti 
+            caricati dai suoi utenti.
+        Perciò tale ISP deve ottenere l'autorizzazione dai titolari dei diritti al fine di diffondere tali 
+        informazioni.
+        Qualora non sia concessa l'autorizzazione l'ISP È CONSIDERATO RESPONSABILE per atti non autorizzati 
+        (messa a disposizione di opere protette da diritto d'autore) a meno che:
+            a) Abbia compiuto i massimi sforzi per ottenere l'autorizzazione.
+            b) Abbia compiuto i massimi sforzi per non rendere disponibili opere e materliali coperti da diritti 
+                d'autore per i quali erano a conoscenza delle informazioni del titolare dei diritti.
+            c) Abbiano agito tempestivamente, dopo segnalazione motivata dal possessore dei diritti, alla 
+                rimozione/disabilitazione dei contenuti protetti dal diritto d'autore e abbiano compiuto i massimi 
+                sforzi per rientrare nel punto (b). 
+    Nel caso in cui venga richiesta la rimozione di un materiale il giudice può chiedere all' ISP di:
+        a) Rimuovere tale informazione e tutte le altre ritenute identiche a quella illecita , o bloccare 
+            l'accesso a tali informazioni.
+            Purchè questa rimozione sia limitata a informazioni che veicolano l'informazione illecita e purchè 
+            tale rimozione sia automatizzata (nessun processo valutativo da parte del ISP).
+        c) Tale informazione deve essere rimossa/bloccata a livello globale -> RISCHIO CENSURA GLOBALE?
+
+-Il documento è un oggetto centrale nell’ambito del diritto come manifestazione dell’essere umano che ha un 
+    valenza di significato giuridico mantenuto nel tempo, ad esso sono stati attribuiti:
+        * Paternità (Aspetto soggettivo - autore).
+        * Genuinità e autenticità (Aspetto oggettivo - problema dei falsi).
+        * Supporto (Strumenti in cui incidere e conservare i documenti).
+    Con l'arrivo della tecnologia viene stravoloto il concetto di documento che adesso può essere distinto in 
+    2 tipi: 
+        1) DOCUMENTO INFORMATICO: documento elettronico che contiene la rappresentazione informatica di atti, 
+            fatti giuiridicamente rilevanti.
+        2) DOCUMENTO ANALOGICO: la rappresentazione NON informatica di atti, fatti giuridicamente rilevanti.
+    Le normative che disciplinano la fattispecie del documento sono 2:
+        1) Codice di Amministrazione digitale (CAD)
+        2) Regolamento Europeo (eIDAS (electronic IDentification Authentication and Signature)).
+    Il regolamento è una forma normativa del diritto Europeo perciò: 
+        * È generale , ossia vale per tutti gli stati del EU.
+        * È direttamente applicabile , ossia non è necessaria alcuna attività da parte dello stato nazionale.
+    Si possono distinguere quattro tipi di firme elettroniche (FIRMA -> Strumento per ferificare la validità 
+    di un documento) in base alla loro sicurezza, accuratezza, garanzia di paternità:
+        * SEMPLICE: insieme di dati in forma elettronica connessi tra loro da un nesso logico e connessa ad 
+            altri dati utilizzati dal firmatario per esprimere la propria volonta (Username & Password, lettura
+            della retina, tessera magnetica).
+        * AVANZATA: firma di garanzia maggiore caratterizzata da: concessione unica al firmatario, 
+            identificazione unica del firmatario, creata attraverso dati controllati esclusivamente dal firmatario, 
+            collegata al file sottoscritto in modo da identificare qualsiasi successiva modifica (es. firma sul 
+            tablet).
+        * QUALIFICATA: basata su un certificato rilasciato da un ente certificatore che garantisce che il titolare 
+            di tale certificato è il soggetto che dichiara di essere.
+        * DIGITALE: basata su sistema di chiavi crittografate (Chiave pubblica/privata), che consentono al titolare 
+            (chiave privata) e al destinatario (chiave pubblica) di accertare la validità della firma e la
+            volontà del firmatario. La tecnologia adottata e quella della CRITTOGRAFIA A CHIAVI ASIMMETRICHE.
+    Le prime tre tipologie sono state definite dal eIDAS (Regolamento EU).
+    Il documento di tipo informatico soddisfa il requisito della forma scritta quando:
+        1) Vi è apposta una firma digitale.
+        2) Altro tipo di firma elettronica qualificata.
+        3) Firma elettronica avanzata.
+        4) È in un formato tale da garantire la sicurezza, integrità, immodificabilità del documento e la 
+            inequivoca riconducibilità all'autore.
+    In tutti gli altri casi la validità del documento informatico sarà liberamente valutata in giudizio basando 
+    tale valutazione su sicurezza, integrità e immodificabilità del documento.
+    Tali criteri si valutano secondo dei parametri tecnici come la data e l'ora di formazione del documento.
+    Per ciò che riguarda la firma qualificata il titolare del certificato di firma è tenuto ad assicurare la 
+    custodia di tale certificato ed è altresì tenuto ad utilizzare personalmente tale dispositivo. 
+============================================================================
+Lezione 3 (Diritti di Proprietà Intellettuale)
+
+-I diritti di proprietà intellettuale si distinguono in due macro gruppi:
+    1) Diritti di proprietà industriale
+    2) Diritti d'autore
+    Queste due categorie hanno in comune il fatto che esse sono frutto dell'ingegno e espressione dell'innovazione.
+    Le opere di ingegno si distinguono in tre categorie:
+        * OPERE DELL'INGEGNO CREATIVO: fanno riferimento al mondo dell'arte e della cultura.
+        * SEGNI DISTINTIVI: marchi,insegna,indicazione geografica,denominazione d'origine. (DIRITTO DI PROPRIETÀ 
+            INDUSTRIALE ACQUISITO MEDIANTE BREVETTAZIONE)
+        * INNOVAZIONI TECNICHE E DI DESIGN: fanno riferimento a invenzioni , disegni e modelli industriali, nuove 
+            varietà vegetali. (DIRITTO DI PROPRIETÀ INDUSTRIALE ACQUISITO MEDIANTE BREVETTAZIONE)
+    I diritti posso essere distinti in: 
+        * DIRITTI TITOLATI: originati dalla brevettazione o registrazione.
+        * DIRITTI NON TITOLATI: sorgono in presenza di determinati presupposti.
+-I MARCHI sono segni distintivi che permettono di:
+        1) Distinguere i prodotti e i servizi di un impresa da quelli di altre imprese
+        2) Riconoscere la provenienza del prodotto/servizio.
+        3) Associare un prodotto/servizio al prestigio, qualità di un azienda.
+    Il marchio deve soddisfare certi requisiti come:
+        * Capacità distintiva.
+        * Novità.
+        * Liceità.
+        * Rappresentazione (Grafica).
+-Secondo l'ARTICOLO 7 il marchio può essere registrato come tale, che siano suoni, parole, tonalità di colore, 
+    design, ecc, se tali caratteristiche siano atte a:
+        a) A distinguere i prodotti di un impresa da quelli di un altra.
+        b) Essere rappresentanti nel registro in modo tale da consentire con chiarezza e precisione l'oggetto 
+            della protezione conferita al titolare.
+    Con la modifica dell'ARTICOLO 7 non è più necessario che il marchio possa essere rappresentato graficamente, 
+        basta infatti che sia conforme a quanto detto nel punto (b).
+-Le tipologie di marchi possono essere varie (denominativo, figurativo, colore, audio, pattern, multimediale ecc).
+    I marchi possono essere distinti in diverse tipologie che sono:    (PRIMA DISTINZIONE)
+        * MARCHI DENOMINATIVI: formato esclusivamente da lettere , cifre e altri caratteri.
+        * MARCHI FIGURATIVI: formati da caratteri stilizzati o con una riproduzione grafica o un colore.
+        * MARCHI FIGURATIVI CONTENENTI ELEMENTI DENOMINATIVI: la combinazione di quelli detti sopra.
+        * MARCHI DI FORMA: formati da una forma tridimensionale (Contenitori, imballaggi) del prodotto stesso.
+    NON COSTITUISCONO oggetto di registrazione come marchio i segni costituiti unicamente da:
+        * Forma o altra caratteristica IMPOSTA dalla tipologia di prodotto stessa.
+        * Forma o altra caratteristica NECESSARIA per ottenere un risultato tecnico.
+        * Forma che da un valore sostanziale al prodotto.
+    La SECONDA DISTINZIONE che può essere fatta tra i marchi sono:
+        * MARCHI INDIVIDUALI: distingue un prodotto di un azienda da quello di un altra.
+        * MARCHI COLLETTIVI: distinguono prodotti e servizi di un gruppo di aziende, questi tipi di marchi sono 
+            utilizzati per creare una fiducia tra il consumatore e il prodotto/servizio offerto e molto spesso 
+            servono ad identificare prodotti che hanno una determinata caratteristica in comune.
+        * MARCHI DI CERTIFICAZIONE: usati per identificare prodotti/servizi conformi ai requisiti di 
+            certificazione da parte di un ente e costituiscono un segno di qualità approvata.
+-Un SEGNO è considerato marchio quando assume la funzione di STRUMENTO DI IDENTIFICAZIONE E DI DIFFERENZIAZIONE, 
+    tale segno infatti assume un valore DISTINTIVO per identificare una determinata provenienza.
+    NON POSSONO costituire marchi elementi privi di un carattere distintivo e in particolare quelli formati 
+    esclusivamente da:
+        1) Denominazione generica del prodotto/servizio.
+        2) Indicazioni descrittive all'oggetto cui fanno riferimento.
+-NON costituiscono fattore di novità per un marchio le seguenti caratteristiche: 
+      * Identico o simile ad un segno già noto per servizi/prodotti affini/non affini.
+      * Identico o simile a marchi già registrati per servizi/prodotti affini/non affini.
+    Inoltre non possono essere usati come marchi tutti quei simboli che: 
+      * Sono contrari alla legge e al buon costume.
+      * Ingannevoli sulla provenienza del prodotto/servizio.
+      * Segni che violano il diritto d'autore altrui.
+-La classificazione di NIZZA è un sistema adottato ai fini della classificazione di prodotti/servizi che il 
+    marchio andrà ad identificare.
+    Questa classificazione consta di 45 classi di cui 34 sono dedite ai prodotti e le restanti 10 ai servizi, 
+    ognuna di queste classi e costituita da un intestazione generale seguita da termini specifici al fine
+    di meglio definire il prodotto/servizio.
+-Un marchio NOTORIO può ottenere una maggiore tutela, un marchio per essere tale deve possedere alcune 
+    caratteristiche come: ampiezza nel mercato , diffuzione tra i consumatori  ecc.
+    Per meglio però definire se un marchio è notorio o meno bisogna esaminare caso per caso.
+-I marchi possono essere tutelati in diverse regioni del pianeta come: 
+        * UIBM: Deposito italiano.
+        * EUIPO: Deposito comunitario EU.
+        * WIPO: Deposito internazionale con i paesi che ADERISCONO alla CONVENZIONE INTERNAZIONALE.
+        * DEPOSITO ESTERO: Deposito internazionale con i paesi che NON ADERISCONO alla CONVENZIONE INTERNAZIONALE.
+     Queste tutele hanno una durata di circa 10 anni dal momento del deposito, rinnovabile per un tempo 
+     potenzialmente infinito.
+     Le tutele inoltre sono mantenute solo a patto che il titolare del marchio ne faccia un uso continuo e serio. 
+     L'obbligo di utilizzo inizia dopo 5 anni dalla registrazione del marchio, se ciò non viene rispettato il marchio 
+     é soggetto a DECADENZA.
+     Se un marchio non è registrato questo viene riconosciuto dalla legge ma ha tutele inferiori rispetto a quelli 
+     registrati.
+-Costituiscono oggetto di BREVETTO per invenzione tutte le invenzioni che sono nuove, che applicano un attività 
+    inventiva e sono atte ad avere un applicazione industriale.
+    NON venogno riconosciute come invenzioni:
+        * Scoperte scientifiche e metodi matematici.
+        * I principi e i metodi per attività intellettuale, di gioco o per attività commerciale; ed i programmi 
+            per elaboratore.
+        * Le presentazioni di informazioni.
+    NON sono brevettabili: 
+        * I metodi di trattamento medico del corpo umano/animale.
+        * Varietà vegetali e razze animali.
+        * Invenzioni biologiche che riguardano il corpo umano.
+        * Le invenzioni contrarie alla morale.
+    I requisiti per brevettare un prodotto/servizio (invenzione) allora sono:
+        * NOVITÀ: Ossia non compresa nello STATO DELLA TECNICA (tutto ciò che è stato reso accessibile al pubblico).
+        * ATTIVITÀ INVENTIVA: è tale ,se valutata da un soggetto esperto nel ramo , risulta NON presente nello STATO 
+            DELLA TECNICA.
+        * INDUSTRIALITÀ: possiede delle applicazioni in qualsiasi genere di industria.
+    Se un invenzione è il prodotto di un dipendente di un azienda allora è il datore di lavoro a detenerne i diritti 
+    eccetto il titolo di riconoscimento di inventore di detta invenzione.
+    Se un invenzione è il prodotto di un ricercatore o di un dipendente di un amministrazione pubblica che ha come 
+    scopo la RICERA allora il ricercatore detiene in maniera esclusiva tali diritti, se tale invenzione deriva da un 
+    gruppo di ricerca allora questi diritti sono ripartiti tra tutti i partecipanti al gruppo.
+-Costituiscono elementi di DESIGN tutti i modelli d'aspetto di un intero prodotto o di una sua parte a condizione 
+    che questi siano nuovi e abbiano un carattare individiduale.
+    Per PRODOTTO si intende un qualsiasi oggetto di produzione artigianale o industriale formato da diversi 
+    componenti assemblati fra loro.
+    Per PRODOTTO COMPLESSO si intende un qualsiasi prodotto formato da più componenti assemblati fra loro che possono 
+    essere sostituiti per permettere l'assemblaggio di un nuovo prodotto.
+-I requsiti fondamentali per il DESIGN di un prodotto sono:
+        * CARATTERE INDIVIDUALE: riconoscibile da un utilizzatore informato (Soggetto che senza essere un esperto 
+            conosce vari DESIGN).
+        * NOVITÀ: se tale DESIGN non è identico a nessun altro DESIGN precedentemente divulgato. (Due DESIGN sono 
+            identici se essi variano solo di dettagli irrilevanti).
+-NON costituiscono oggetto di registrazione tutti quei fattori facente parte della FUNZIONE TECNICA del prodotto 
+    stesso.
+-Un DESIGN NON registrato è tutelato alla pari di uno registrato per la durata di 3 ANNI.
+-Un DESIGN registrato è tutelato per tutta la vita dell'autore e fino a 70 anni dopo la sua morte o dell'ultimo dei 
+    conduttori.
+-La legge di COPYRIGHT (LEGGE SUL DIRITTO D'AUTORE) protegge le seguenti opere: 
+        * Letteratura
+        * Musica 
+        * Arti figurative
+        * Architettura
+        * Teatro
+        * Fotografiche (Non semplice fotografia)
+        * Programmi per elaboratore
+        * Banche dati
+        * ...
+    Si considerano OPERE dell'ingegno creativo tutte quelle opere dotate di un minimo di creatività (Tale parametro e 
+    soggettivo e spetta al giudice deciderne il peso).
+    I diritti morali si acquisiscono al momento della creazione dell'opera e questi sono: 
+        * Rivendicazione di paternità dell'opera.
+        * Opposizione alla modifica/deformazione dell'opera.
+        * Ripensamento.
+    Questi diritti non hanno una scadenza e sono alienabili.
+    I diritti patrimoniali sono alienabili e sono trasmissibili per eredità.
+-La normativa EU ha sostituito la definizione di "INFORMAZIONI AZIENDALI RISERVATE" con quella di "SEGRETI COMMERCIALI".
+    Tali segreti costituiscono il KNOW-HOW non brevettablile o non brevettato di un azienda, tale segreto è definito 
+    come: 
+        * Generalmente non noto ne facilmente accessibile.
+        * Sostanziale (Utile nei processi produttivi).
+        * Individuato (Descritto in maniera sufficentemente esaustiva da consentirne la verifica).
+        * Adeguatamente mantenuto in stato di segretezza.
+-Un programma per elaboratore per essere brevettabile deve: 
+        * Non rivendicare le sole stringhe di codice ma anche l'effetto tecnico che queste producono 
+        * Essere sufficentemente descritto.
+        * Fornire un contibuto tecnico in un settore tencico non ovvio.
+============================================================================
+Lezione 4 (Posta Elettronica Certificata (PEC) / Contratti Telematici)
+
+  -Con Posta Elettronica Certificata (PEC) si identifica un sistema di posta elettronica nella quale è fornita al mittente documentazione elettronica, con valenza legale, attestante l'invio e la consegna di documenti
+    informatici.(Questa esiste esclusivamente in Italia)
+    I soggetti del servizio PEC sono: 
+      * MITTENTE: soggetto che si avvale del servizio PEC per la trasmissione di documenti prodotti con strumenti informatici.
+      * DESTINATARIO: soggetto che si avvale del servizio PEC per la ricezione di documenti prodotti con strumenti informatici.
+      * GESTORE: soggetto che eroga il servizio PEC e che ne gestisce i domini.
+    Il documento si intende come SPEDITO dal mittente se inviato al proprio gestore e si intende CONSEGNATO al destinatario se RESO disponibile all'indirizzo elettronico , nella casella di posta del destinatario messa
+    a disposizione del gestore.
+    La PEC consente l'invio di messaggi con validità agli effetti della legge.
+    Il messaggio inviato dal mittenete tramite PEC  al proprio gestore viene trasmessa al destinatario in maniera diretta o trasferita al gestore del destinatario che si occupera di ultimare la trasmissione del messaggio.
+    È il gestore del servizio PEC del mittente a fornire al mittente stesso la ricevuta di accettazione che costituisce la prova dell'avvenuta spedizione del messaggio, mentre sarà il gestore del servizio PEC del
+    destinatario a fornire al mittente la ricevuta di avvenuta consegna.
+    Quest'ultima ricevuta fornisce al mittente la prova che il suo messaggio è stato effetivamente pervenuto al destinatario e ne certifica il momento della consegna; questa certificazione viene rilasciata al momento
+    della consegna del messagio INDIPENDENTEMENTE dal fatto che il destinatario abbia preso visione del contenuto del messaggio.
+    La ricevuta di avvenuta consegna viene emessa esclusivamente alla ricezione di una busta di trasporto valida.
+    Se il messaggio NON risulta CONSEGNABILE sarà il gestore del servizio PEC del mittente a segnalare entro le 24 ore successive la mancata consegna del messaggio al mittente.
+    Tutte le ricevute rilasciate dal gestore del servizio PEC sono sottoscritte da una FIRMA ELETTRONICA AVANZATA generata automaticamente.
+    Nel caso in cui il gestore del servizio PEC del mittente riceva un messaggio contenente un virus informatico è tenuto a non accettarli , informando tempestivamente il mittente del mancato invio del messaggio; in questo caso
+    il gestore conserva questo tipo di messaggi per 30 mesi.
+    Nel caso in cui il gestore del servizio PEC del destinatario riceva un messaggio contenente un virus informatico è tenuto a non inoltrarli al destinatario, informando tempestivamente il gestore del servizio PEC del mittente
+    avvisando la mancata consegna del messaggio; in questo caso il gestore conserva questo tipo di messaggi per 30 mesi.
+  -Si possono distinguere 3 tipi di ricevuta: 
+      * COMPLETA: contenente il file, gli allegati, i dati di certificazione(mittente, destinatario ,gestori ,oggetto, data e ora invio , codice identificativo del messaggio).
+      * BREVE: contenente solo i dati di certificazione ed un estratto del messaggio.
+      * SINTETICA: contenete solo i dati di certificazione.
+
+   -Il CONTRATTO TELEMATICO è definito come: contratto stipulato per via elettronica mediante l'uso di un computer.
+    I contratti telematici sono distinti in diverse tipologie che sono:
+      1) DIRETTI(Conclusi ed eseguiti online) [Es. software, musica, data base] / INDIRETTI(Conclusi online ed eseguiti offline) [Es. beni materiali].
+      2) SITI INTERNET(Con pubblico INDETERMINATO) / EMAIL(Tra parti determinate).
+      3) Business to Business (Tra imprenditori) / Business to Consumer (Tra imprenditore e consumatore).
+    La categoria alla quale prestare più attenzione è la 3) e soprattutto il cantratto Business to Consumer dato che, a differenza del primo (Business to Business) nel quale interagiscono due professionisti, il consumer
+    risulta meno esperto e quindi ha bisogno di maggiori tutele durante il confronto con un imprenditore (spesso multinazionale); queste tutele risultano in una maggiore attenzione del venditore nella pubblicizzazione del
+    prodotto e a delle politiche di rimborso/reso.
+   -Per E-COMMERCE si intende ogni tipo di attività commerciale online che ha: 
+      * Diritto di stabilimento e dell'esercizio dell'attività online: Scelta delle normative da applicare per regolare un contratto telematico in base alla sua tipologia, in genere diventa prevalente la sede del MERCATO(Country of origin) in cui esercita
+       l'attività che la sede FORMALE(legale) dell'azienda.
+      * Responsabilità degli operatori online: corrisponde alla responsabilità dell ISP.
+        Dal punto di vista amministrativo non è necessaria l'autorizzazione per svolgere attività di commercio online ecceto per alcune che si distinguono per il tipo di bene commerciato.
+      * Comunicazioni commerciali e pubblicitarie: queste , soprattutto nel caso di Business to Consumer , dovranno descrivere in maniera chiara le caratteristiche del prodotto venduto per tutelare il Consumer.
+      * Contratti telematici: mancato incontro personale tra le due parti che stipulano il contratto , tutto avviene a distanza (online).
+    -La normativa che regola l' E-COMMERCE è: 
+      1) Direttiva 2000/31/CE dell' 8.6.2000 (ARTICOLO 14,15,16,17 LEZIONE 1).
+      2) Legge comunitaria 2001, ARTICOLO 31.
+      3) D.Lgs 9 aprile 2003, n'70.
+    -Secondo il CODICE DI CONSUMO nel contratto Business to Consumer vi sono norme inderogabili che proteggono il consumatore ai quali, neanche sotto suo esplicito volere, esso può rinunciare (eccetto alcuni casi particolari).
+     Tra questi diritti compare: 
+      * DIRITTO DI RECESSO: per esercitare tale diritto il consumatore non ha obbligo di fornire una motivazione ed è indipendente dalla presenza di difetti nel bene acquistato è comunque sempre prevista la restituzione di 
+        quanto pagato.
+     Nel caso di contratto Business to Business non vengono applicate le regole del CODICE DI CONSUMO, questi sono disciplinati dal Codice Civile e vengono quindi applicate le norme che regolano tutto il mondo dei contratti.
+    -Nel caso di contratto Business to Consumer il cliente è guidato nel processo di acquisto da parole chiave e significative (che non traggano in inganno il cliente) e durante tutto il processo sono messi a disposizione
+     mezzi per l'archiviazione dei vari passi eseguiti per l'acquisizione del bene e mezzi di correzione degli errori.
+    -Nei contratti Business to Business si distinguono 2 soggetti: 
+      * PROFESSIONISTA: colui il quale aggisce nel proprio ambito imprenditoriale o professionale.
+      * CONSUMATORE: colui il quale aggisce per scopi estranei all'attiviatà imprenditoriale o professionale.
+    -Quando si parla di ELECTRONIC AGENTS si intende che il computer partecipa alla trattativa. Tocca quindi definire chi è imputabile tra il computer o il suo titolare; nel nostro ordinamento le dichiarazioni contrattuali
+     sono sempre imputabili alle persone e non alle macchine.
+    -Gli elementi essenziali che costituiscono un contratto discendono dal Diritto Romano , nel caso SOLO UNO di questi fondamentali elementi dovesse venire a mancare nel contratto allora questo potrebbe non essere 
+     ritenuto valido/esistente/annullabile.
+     Questi elementi sono:
+      * ACCORDO DELLE PARTI: Gli schemi che generalmente seguono i contratti sono 3 e sono:
+        1) Scambio di proposta e accettazione: Il contratto viene concluso nel momento in cui chi ha fatto la proposta ha conoscenza dell'accettazione dell'altra parte.
+          Nel caso di spedizione via email si considera il documento informatico (contratto) SPEDITO DAL MITTENTE se inviato al proprio gestore e si considera CONSEGNATO AL DESTINATARIO se reso disponibile al indirizzo
+          da questo dichiarato. 
+        2) Offerta al pubblico: contiene solo gli estremi essenziali del contratto che valgono come proposta , altrimenti se non sono presenti gli estremi quesa vale come un invito alla proposta.
+          Nel caso dell'uso di un sito internet (in generale siamo nel caso di estremi essenziali) il FORNITORE offre ad un pubblico il bene , l' ACQUIRENTE compila l'ordine e invia l'ACCETTAZIONE con uno specifico mezzo tecnico
+          (POINT-AND-CLICK su OK), il contratto si conclude non appena l'accettazione arriva al server del FORNITORE/PROVIDER. 
+        3) Comportamento concludente: il contratto si conclude con l'inizio della sua esecuzione.
+          Nel caso di un ordine di un compratore di merce via email e la spedizione della merce da parte del fornitore senza risposta alla detta email.
+      * CAUSA: è il riferimento alla funzione economica che le parti intendono realizzare con quel contratto.
+        Una CAUSA è detta ILLECITA , e quindi il CONTRATTO NULLO , quando questa è contraria a norme imperative, all'ordine pubblico o al buon costume.
+      * OGGETTO: questo deve essere: POSSIBILE, LECITO, DETERMINATO o DETERMINABILE.
+      * FORMA (quando richiesta): si intende la modalità esteriore con qui si manifesta il contratto tra le due parti. 
+        Questa deve essere: ESPRESSA/TACITA, SCRITTA/ORALE, AD SUBSTANTIAM(identifica quella forma obbligatoriamente richiesta per dare sostanza ad un atto giuridico)/AD PROBATIONEM(forma per dimostrare in giudizio l'esistenza di quel contratto).
+============================================================================
+Lezione 5 (Regolamento UE 2016/679 (Data Protection) / Principi Generali e Definizioni Soggetti - Obblighi Documentali)
+
+  -La materia del DATA PROTECTION è disciplinata dal Regolamento (UE) 2016/679 (GDPR) del Parlamento Europeo e del Consiglio del 27 aprile 2016, poichè si tratta di un REGOLAMENTO questo viene recepito da tutti i paesi
+   dell'Unione allo stesso modo. Precedentemente tale materia era disciplinata da un decreto legislativo detto CODICE PRIVACY che è stato scelto di non cancellare del tutto ma solo in alcune delle sue parti.
+   Tale scelta fu guidata da:
+    * Scelte politiche del tempo. 
+    * Motivi tecnici. 
+    * Similitudine tra norme nazionali e quelle presenti nel REGOLAMENTO Europeo.
+  -Per applicare il GDPR alle sole persone fisiche bisogna prima definire i concetti di:
+    * DATO PERSONALE: qualsiasi informazione relativa una persona fisica identificata o identificabile(INTERESSATO); una persona fisica è detta identificabile quanto questa può essere identificata direttamente/indirettamente
+      con riferimento al nome,numero di identificazione, identificativo online,caratteristiche fisiche, psicologiche...
+    * TRATTAMENTO: qualsiasi operazione o insieme di operazioni , compiute con/senza l'ausilio di processi automatizzati e applicate a dati personali o insieme di dati personali.
+   Vi sono delle categorie particolari di DATI PERSONALI che sono: 
+    * EX DATI SENSIBILI: origine razziale/etnica, opinioni politiche/religiose/filosofiche, dati genetici/biometrici, dati relativi alla salute/vita sessuale/orientamento sessuale della persona. (INTERNI ALL'INTERESSATO).
+    * EX DATI GIUDIZIARI: dati personali relativi alle condanne penali e ai reati o a connesse misure di sicurezza. (ESTERNI ALL'INTERESSATO). 
+  Per il TRATTAMENTO è necessario fornire un INFORMATIVA ALL'INTERESSATO tale che: 
+    1)(ARTICOLO 12) Il titolare del trattamento addotta misure appropriate per fornire all'interessato tutte le informazioni in forma coincisa,trasparente,intelligibile e facilmente accessibile con un linguaggio chiaro.
+       Queste informazioni possono essere fornite per scritto o tramite mezzi elettronici o oralmente purchè comprovata da altri mezzi. 
+    1)(ARTICOLO 13) Nel caso di raccolta di dati che lo riguardano , il titolare del trattamento fornisce all interessato le seguenti informazioni:
+      * L'identità e i dati di contatto del titolare del trattamento.
+      * I dati di contatto del responsabile della protezione dei dati (DPO).
+      * Le finalità del trattamento e la base giuridica del trattamento.
+      * I leggittimi interessati perseguiti dal titolare del trattamento o da terzi.
+      * Gli eventuali destinatari o gruppo di destinatari dei dati trattati.
+      * L' intenzione del titolare del trattamento di trasferire dati personali ad un paese terzo o ad un' organizzazione internazionale.
+    2) Nel momento dell'acquisizione dei dati il titolare del trattamento fornisce all'interessato le seguenti ulteriori informazioni per garantire un trattamento trasparente:
+      * Il periodo di conservazione oppure , se non è possibile , i criteri utilizzati per determinare tale periodo.
+      * L'esistenza del diritto dell'diretto interessato all'accesso ai dati personali, la rettifica,la cancellazione, la limitazione, l'opposizione al trattamento e il diritto di portabilità di tali dati.
+      * L'esistenza del diritto di revocare il consenso in qualsiasi momento.
+      * L'esistenza del diritto di poter porre reclamo a un autorità di controllo.
+      * Se la comunicazione di dati personali è un obbligo legalo o contrattuale oppure un necessario requisito per la conclusione del contratto, se l'interessato ha l'obbligo di fornire tali dati e se lo fa le conseguenze.
+      * L'esistenza di un processo decisionle automatizzato.
+    -(ARTICOLO 6)Il TRATTAMENTO è LECITO solo se è valida ALMENO una delle seguenti condizioni:
+      * L'interessato ha espresso il CONSENSO alla trattazione dei dati.
+      * Il trattamento dei dati è necessario all'esecuzione di un contratto.
+      * Il trattamento è necessario per adempiere un obbligo legale.
+      * Il trattamento è necessario per la salvaguardia degli interessi vitali dell'interessato o di un altra persona fisica.
+      * Il trattamento è necessario per l'esecuzione di un compito di interesse pubblico o connesso all'esercizio di pubblici poteri.
+      * Il trattamento è necessario per il perseguimento del leggittimo interesse del titolare del trattamento o da terzi, a condizione che non prevalichino i diritti dell'interessato.
+    -Dal CONSIDERANDO 32 il CONSENSO DEVE essere espresso mediante un atto positivo inequivocabile (processo ATTIVO).
+     Se il trattamento ha più finalità il consenso deve essere espresso per OGNIUNA di esse.
+     -(ARTICOLO 7) il CONSENSO deve essere: 
+      * In grado di dimostrare che l'interessato ha prestato il proprio consenso (ONERE della prova a carico del titolare).
+      * La sua richiesta è presentata in maniera chiara e distinguibile da qualsiasi altra materia , sia espressa in maniera facile e comprensibile e che sia di facile accessibilità.
+      * L'interessato ha il diritto di revocare il consenso in QUALSIASI MOMENTO.
+    -Con l'ARTICOLO 24 viene introdotto il concetto di ACCOUNTABILITY per cui il titolare del contratto è responsabile della COMPLIANCE ai principi di privacy e deve essere in grado di dimostrala; esso mette in atto 
+     misure tecniche ed organizzative adeguate per garantire, ed essere in grado di dimostrare, che il trattamento è avvento in maniera conforme al GDPR.
+     Tutto ciò implica l'utilizzo di un sistema di DATA PROTECTION che consenta di gestire la complience.
+     Tale sistema e i metodi di applicazione della DATA PROTECTION devono essere stabiliti prima della progettazione del software.
+    -Dall ARTICOLO 4 si definisce l'entità di TITOLARE DEL TRATTAMENTO come la persona fisica/giuridica che determina le finalità e i mezzi del trattamento dei dati personali.
+      Se due o più titolari determinano congiuntamente le finalità e i mezzi del tarttamento allora questi diventano CONTITOLARI.
+      Si parla di RESPONSABILE DEL TRATTAMENTO quando si ci riferisce alla persona fisica/giuridica che tratta i dati personali per conto del TITOLARE DEL TRATTAMENTO.
+      Nel ARTICOLO 27 è specificato che i trattamenti applicabili da un responsabile sono disciplinati da un contratto o atto giuridico a norma.
+      Si parla di INCARICATO (non più presente) quando si ci riferisce a chiunque aggisca sotto l'autorità del titolare del trattamento o del responsabile del trattamento, l'INCARICATO non può trattare i dati se non specificatamente
+      ISTRIUTO.
+    -IL DPO (Responsabile della protezione dei dati) e obbligatorio in 3 casi: 
+      1) Autorità pubblica o organismo pubblico.
+      2) Controllo regolare e sistematico degli interessati su larga scala.
+      3) Trattamento su larga scala di dati particolari.
+    -Per l'ARTICOLO 30 su i REGISTRI DELLE ATTIVITÀ DI TRATTAMENTO , tale registro contiene tutte le seguenti informazioni: 
+      * Nome e dati di contatto del titolare del trattamento.
+      * Le finalità del trattamento.
+      * Categorie di interessati e le categorie di dati personali.
+      * Le categorie di destinatari a cui i dati sono o saranno comunicati.
+      * I trasferimenti di dati personali verso un paese terzo o un organizzazione internazionale.
+      * I termini ultimi previsti per la cancellazione.
+      * Descrizione generale delle misure di sicurezza e organizzative adottate.
+     Questi registri sono tenuti in forma scritta o anche in formato elettronico.
+     Su richiesta delle autorità il titolare/responsabile/rappresentante del trattamento mettono a disposizione tale registro.
+    -Con il DECRETO LEGISLATIVO 101 del 10/08/2018 sono state introdotte delle semplificazioni per i registri. 
+============================================================================
+Lezione 6 (Regolamento UE 2016/679 (Data Protection) / Data Breach - Rapporto di Lavoro)
+
+  -Per DATA BREACH si intende una violazione di sicurezza che comporta accidentalmente o in modo illecito alla distribuzione, perdita, modifica, divulgazione non autorizzata o l'accesso ai dati personali trasmessi conservati
+   o comunque trattati.
+   Il WP29(Article 29 Working Party) suddivide la violazione dei dati personali in: 
+    * CONFIDENTIALITY BREACH: caso di divulgazione o accesso non autorizzato a dati personali.
+    * AVAILABILITY BREACH: caso di alterazione non autorizzata o accidentale di dati personali.
+    * INTEGRITY BREACH: caso di modifica non autorizzata o accidentale di dati personali.
+  -In caso di DATA BREACH il titolare del trattamento deve immediatamente e senza indugi notificare le autorità di controllo (entro le 72 ore dal momento in cui ne è entrato a conoscenza).
+   Il tiotlare può notificare ogni singolo DATA BREACH con un unica notifica qualora questi abbiano colpito una stessa categoria di dati, in caso contrario il titolare dovrà mandare una notifica per ogni tipo di dato
+   colpito.
+  -A seguito di un DATA BREACH la notifica all'interessato NON È necessaria se:
+    * Il titolare a messo in atto misure adeguate alla protezione dei dati. 
+    * Il titolare a adottato misure tali da scongiurare l'attacco.
+    * Detta notifica richiede sforzi sproporzionati.
+  -Le SANZIONI CORRETTIVE connesse ai poteri dell'AUTORITÀ DI CONTROLLO consistono in:
+    * Rivolgere avvertimenti al tiotlare del trattamento sul fatto che i trattamenti previsti possono violare il GDPR.
+    * Rivolgere ammonimenti al tiotlare del trattamento sul fatto che i trattamenti previsti abbiano violato il GDPR.
+    * Ingiungere al titolare del trattamento di soddisfare le richieste dell'interessato di esercitare i relativi diritti.
+    * Ingiungere al titolare del trattamento di conformare i trattamenti alle disposizioni del GDPR.
+    * Ingiungere al titolare del trattamento di comunicare all'interessato una violazione dei dati personali.
+    * Imporre una limitazione(temporanea o definitiva) al trattamento.
+    * Ordinare la rettifica,cancellazione o limitazione del trattamento con notificazione ai destinatari dei dati personali.
+    * Infliggere una sazione pecuniaria in aggiunta alle precedenti.
+    * Ordinare la sospensione dei flussi di dati verso un paese terzo o organizzazione internazionale.
+  
+  -Si definisce IMPRENDITORE il capo dell'impresa e da lui dipendono gerarchicamente i suoi collaboratori.
+   Dall'ARTICOLO 2086 del Codice Civile l'imprenditore ha il dovere di istituire un assetto organizzativo adeguato all'impresa , nonchè il dovere di attivarsi senza indugio per l'adozione e l'attuazione di uno degli
+   strumenti previsti dall'ordinamento per il superamento della crisi e il recupero della continuità aziendale.
+  -Il PRESTATORE DI LAVORO deve usare la DILIGENZA richiesta dalla natura della prestazione di lavoro dovuta, deve inoltre osservare le disposizioni per l'esecuzione e per la disciplina impartite dall' imprenditore.
+   Il lavoratore deve quindi sottostare al potere direttivo e di controllo del datore di lavoro , che quest'ultimo eserciterà nel rispetto della dignità,libertà e riservatezza del lavoratore (Statuto dei lavoratori).
+   Il datore di lavoro si impegnerà anche ad organizzare le attività di lavoro dei propri dipendenti e a controllare che tali attività siano svolte nel rispetto delle regole aziendali.
+  -Sono vietati da parte del datore di lavoro controlli occulti sull'attività lavorativa da parte di collaboratori non conosciuti come CONTROLLORI.
+   Sono invece permessi i controlli da parte di INVESTIGATORI che non stanno operando come dipendenti interni all'azienda ma stanno solo offrendo una prestazione lavorativa che quindi non rientra nella tipologia di controlli subdoli.
+   Sono inoltre permessi dei controlli a distanza (Video sorveglianza) che sono unicamente impiegati per esiggenze organizzative/produttive e per la sicurezza del patrimonio aziendale con previo accordo stipulato dalla
+   rappresentanza sindacale.
+  -L'account di posta elettronica aziendale non è di propiretà del dipendente ma bensì dell'azienda , un utilizzo impropiro da parte del dipendente potrebbe portare a sazioni disciplinari.
+   Il datore di lavoro che controlla la email aziendale dei dipendenti senza alcun avviso viola il DIRITTO ALLA VITA PRIVATA, se si vuole effettuare questo controllo il datore di lavoro è obbligato ad avvisare il dipendente su
+   la procedura di controllo, la sua durata, le sue motivazioni e le modalità con le quali verrà eseguita.
+   Il datore di lavoro dovrà inoltre informare con chiarezza i prorpi dipendenti sulle modalità di utilizzo di internet/email e degli eventuali controlli che verrano effettuati.
+   Si stabilisce perciò un REGOLAMENTO AZIENDALE ossia quell'insieme di norme adottate dall'azienda per disciplinare la condotta dei propri dipendenti.
+   Sono vietati come tipi di controllo: (violazione ARTICOLO 4 dello STATUTO DEI LAVORATORI)
+    * Lettura e registazione delle email del dipendente nella casella di posta aziendale di quest'ultimo.
+    * Monitoraggio delle pagine web visitate dal dipendente
+    * Effettuare indagini prima/dopo l'assunzione di un dipendente sulle sue opinioni politiche/religiose/sindacali (fatti non rilevanti alla prestazione di lavoro).
+============================================================================
+Lezione 7 (Principi Diritto Penale / Computer Crimes)
+
+  -La LEGALITÀ FORMALE si basa su 3 presupposti: 
+    * RISERVA DI LEGGE: solo al potere LEGISLATIVO appartiene il monopolio normativo in materia penale.
+    * TASSATIVITÀ: tecnica di FORMULAZIONE delle norme penali (indicazione precisa di ciò che è penalmente illecito).
+    * IRRETROATTIVITÀ: riguarda la validità nel tempo della legge penale (ARTICOLO 2 dal Codice Penale e ARTICOLO 25 della Costituzione), questa validità si distingue in:
+      a) IRRETROATTIVITÀ della legge SFAVOREVOLE.
+      b) RETROATTIVITÀ della legge FAVOREVOLE.
+  -Si definisce REATO quel fatto giuridico, che infrange il principio di legalità, espressamente previsto dal legislatore che ha come conseguenza una pena.
+   Il SOGGETTO attivo del reato (colpevole) è la sola PERSONA UMANA.
+   Si può distinguere: 
+    * CAPACITÀ PENALE: capacità di commettere un reato.
+    * CAPACITÀ ALLA PENA: presuppone l'imputabilità.
+   Nel caso in cui il soggetto risulti essere di minore età o incapaci di intendere e di volere allora non è possibile presuppore l'imputabilità.
+  -Un REATO è detto PRETERINTENZIONALE se vi è un disallineamento tra evento e volontà del soggetto, ossia si voleva commettere un atto ,se pur illecito, minore di quello realizzato.
+  -Un REATO è strutturato da un insieme di elementi che devono essere presenti in CONTEMPORANEA , questi elementi sono: 
+    * CONDOTTA-EVENTO: la CONDOTTA è un elemento essenziale del reato, tanto che in mancanza di CONDOTTA non c'è reato (può esserci un reato senza EVENTO).
+      1) La CONDOTTA può consistere in una AZIONE o una OMISSIONE.
+         Nel caso dell'OMISSIONE si intende la mancata esecuzione di una azione che il soggetto ha il dovere giuridico di compiere, quindi risulta in una violazione di un dovere giuridico.
+      2) L'EVENTO è il risultato dell'azione o dell'omissione e deve essere a queste legato da un nesso causale (RATO DI EVENTO). L'EVENTO non è sempre un elemento di reato dato che esistono REATI DI PURA CONDOTTA. 
+        In oltre l'EVENTO non è solo distinto materialmente dalla condotta ma anche cronologicamente, si può infatti parlare di:
+          a) REATO AD EVENTO DIFFERITO: quando l'EVENTO segue a distanza di tempo la condotta.
+          b) REATO A DISTANZA: quando l'EVENTO si verifica in un luogo diverso da quello della condotta.
+        Si parla di EVENTO DI DANNO se lede il soggetto protetto dalla norma o di EVENTO DI PERICOLO se mette in pericolo il soggetto protetto dalla norma.
+    * RAPPORTO DI CAUSALITÀ: elemento che collega condotta e evento per mezzo di un NESSO LOGICO detto nell'ARTICOLO 40 del Codice Penale CONSEGUENZA.
+      Si parla di NON PUNIBILITÀ per il caso in cui il fatto sia stato commesso per un CASO FORTUITO o FORZA MAGGIORE, questi fattori escludono quindi il rapporto tra condotta e evento.
+    * OFFESA-ELEMENTO SOGGETTIVO: si adotta un sistema MISTO non basato più sulla presenza o di lesione oggettiva al bene o di sola volontà criminosa , ma bensi la combinazione di entrambi (Lesione + Elemento psicologico).
+  -La COLPEVOLEZZA è strutturata su 3 elementi fondamentali:
+    * IMPUTABILITÀ.
+    * CONOSCENZA/CONSCIBILITÀ DEL PRECETTO PENALE.
+    * DOLO O COLPA: il DOLO viene definito nell'ARTICOLO 43 del Codice Penale come rappresentazione e volontà del fatto materliale tipico e quindi di tutti gli elementi della fattispecie di reato.
+      La COLPA (introdotta di recente) risulta essere meno grave del DOLO,ECCEZIONALE e MINORITARIA (ARTICOLO 42, Comma 2 Codice Civile) e SUSSIDIARIA.
+      La COLPA quindi è un rimprovero per aver realizzato ,se pur involontariamente , un fatto-reato che sarebbe potuto essere evitato se osservata la regola infranta.
+      Gli elementi che costituiscono la colpa sono:
+        a) Mancanza della volontà del fatto tipico.
+        b) Inosservanza della regola di condotta.
+        c) Attribuibilità dell'inosservanza all'agente.
+
+  -Si definisce COMPUTER CRIME quel reato che:
+    a) Implica l'uso di un sistema informatico.
+    b) Coinvolge un apparato informatico quale oggetto su cui ricade l'azione commessa.
+  -Si parla di ACCESSO ABUSIVO AD UN SISTEMA INFORMATICO O TELEMATICO (ARTICOLO 615 ter Codice Penale) quando chiunque si introduce in un sistema informatico o telematico protetto da misure di sicurezza, ossia 
+   si accede contro la volontà espressa o tacita di chi ha il diritto di escluderlo. Potranno essere puntiti: 
+    * Pubblici ufficiali o incaricati di servizio che operano abuso di potere.
+    * I colpevoli che utilizzano violenza su persone o cose.
+    * Se dal fatto deriva la distruzione o il danneggiamento del sistema o l'interruzione totale o parziale del suo funzionamento (danneggiamento di dati,programmi,... in esso contenuti).
+  -Si parla di DANNEGGIAMENTO INFORMATICO (ARTICOLO 635 bis Codice Penale) quando chiunque distrugge,deteriora o rende in tutto o in parte inservibili sistemi informatici altrui (programmi, dati ...).
+  -Si parla di DIFFUSIONE DI PARECCHIATURE, DISPOSITIVI O PROGRAMMI INFORMATICI DIRETTI A DANNEGGIARE O INTERROMPERE UN SISTEMA INFORMATICO O TELEMATICO (ARTICOLO 615 quinquies Codice penale) quando chiunque allo
+   scopo di danneggiare illecitamente un sistema informatico, i dati o i programmi in esso contenuti, mette a disposizione di altri apparecchiature, dispositivi o programmi informatici.
+============================================================================
+Lezione 8 (Diffamazione e Social Network / Reati Pedopornografici)
+
+  -Si definisce INGIURIA (Reato depenalizzato con d.lgs. 7/2016) un offetsa intenzionalmente e direttamente arrecata al decoro e all'onore altrui.
+   Commette INGIURIA: 
+    * Chiunque offenda l'ONORE o il DECORO di una persona PRESENTE.
+    * Chiunque offenda l'ONORE o il DECORO anche mediante comunicazione telefonica,scrtte,disegni ... diretti alla persona offesa.
+   La pena per INGIURIA era aumentata se l'offesa consisteva nell'attribuizione di un fatto determinato [Es. si specifica il comportament dell'offeso in una determinata situazione].
+   La pena per INGIURIA era aumentata se l'offesa era commessa in presenza di più persone.
+  -Dall ARTICOLO 595 del Codice Penale si definisce colpevole di DIFFAMAZIONE chiunque (eccetto i casi di ingiuria) comunicando con più persone offende la REPUTAZIONE altrui.
+   La pena per DIFFAMAZIONE è aumentata nel caso si attribuisca un fatto determinato.
+   La pena per DIFFAMAZIONE è aumentata nel caso si utilizzi un qualsiasi mezzo di pubblicità [Es. stampa,social], ovvero in atto pubblico.
+   La pena per DIFFAMAZIONE è aumentata nel caso l'offesa sia recata ad un un corpo politico,amministrativo ... 
+  -Si definisce DECORO il complesso di valori e atteggiamenti ritenuti confacienti a una vita dignitosa, riservata, corretta. (ELEMENTO LEGATO ALLA PERSONA)
+  -Si definisce ONORE quell'elemento personale che costituisce un motivo di vanto/soddisfazione. (ELEMENTO LEGATO ALLA PERSONA)
+  -Si definisce REPUTAZIONE la considerazione in cui si è tenuti dagli altri. (ELEMENTO LEGATO ALLA VISIONE DELLA COMUNITÀ DELLA PERSONA)
+  -La DIFFAMAZIONE può essere inquadrata come:
+    * REATO A FORMA LIBERA: la condotta diffamante viene perfezionata ogniqualvolta venga offesa la reputazione di una determinata persona. 
+    * REATO DI DANNO: la realizzazione dell'EVENTO inteso come percezione dell'offesa di una determinata persona da più soggetti.
+  -Nell'ARTICOLO 21 della Costituzione (Libertà di pensiero) si afferma che TUTTI hanno il diritto diritto di manifestare liberamente il proprio pensiero con la parola,lo scritto e ogni altro mezzo di diffusione.
+   La stampa non può essere soggetta a censure.
+   La Corete di Cassazione ha stabilito una serie di requisiti affinchè una manifestazione di pensiero rientri in tale diritto:
+    1) VERIDICITÀ: Impossibilità di accusare una persona basandosi su notizie false.
+    2) CONTINENZA: Il tono e il linguaggio usato per esprimere l'opinione deve essere moderato.
+    3) INTERESSE PUBBLICO: l'opinione espressa deve avere un valore per la comunità.
+  -Nell'ARTICOLO 640 del Codice Penale si definisce TRUFFA: chiunque, con artifizi o raggiri, induca qualquno in errore procurando a sè o ad altri un ingiusto profitto con altrui danno.
+  -Soffermandosi solo sull'aspetto "Social" dell'ARTICOLO 2598 del Codice Civile (ATTI DI CONCORRENZA SLEALE) viene detto che compie atti di concorrenza sleale chiunque diffonda notizie e apprezzamenti sui prodotti
+   di un attività concorrente, idonei a determinarne il discredito.
+
+  -Con l'ARTICOLO 600 ter del Codice Penale (Pornografia minorile) è punito chiunque:
+    * Utilizzando minori di anni 18, realizza esibizioni o spettacoli pornografici, ossia produce materiale pornografico.
+    * Recluta o induce minori di anni 18 a partecipare a esibizioni pornografiche per trarne profitto.
+   La stessa pena la subisce chiunque fa commercio del materiale pornografico del tipo detto sopra.
+   Chiunque con un qualsiasi mezzo, sia questo telematico o no, distribuisce, divulga, diffonde o pubblicizza il materiale pornografico del tipo detto sopra è anch'esso punito.
+  -Per PORNOGRAFIA MINORILE si intende OGNI rappresentazione con QUALSIASI mezzo, di un minore di anni 18 coinvolto in attività sessuali esplicite, reali o simulate, o qualunque rappresentazione degli organi sessuali
+   di un minore di anni 18 per scopi sessuali. 
+============================================================================
