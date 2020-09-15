@@ -238,7 +238,7 @@ Lezione 3 (Diritti di Proprietà Intellettuale)
      registrati.
 -Costituiscono oggetto di BREVETTO per invenzione tutte le invenzioni che sono nuove, che applicano un attività 
     inventiva e sono atte ad avere un applicazione industriale.
-    NON venogno riconosciute come invenzioni:
+    NON vengono riconosciute come invenzioni:
         * Scoperte scientifiche e metodi matematici.
         * I principi e i metodi per attività intellettuale, di gioco o per attività commerciale; ed i programmi 
             per elaboratore.
@@ -303,6 +303,44 @@ Lezione 3 (Diritti di Proprietà Intellettuale)
         * Non rivendicare le sole stringhe di codice ma anche l'effetto tecnico che queste producono 
         * Essere sufficentemente descritto.
         * Fornire un contibuto tecnico in un settore tencico non ovvio.
+        
+Diritto D'autore o Brevetto?
+        *Le principali differenze tra la tutela brevettuale e quella ottenuta mediante diritto d’autore riguardano il modo d’acquisizione, la durata dei
+        diritti e gli strumenti di difesa.
+        *Il brevetto permette lo sfruttamento della creazione con riguardo al suo contenuto, mentre il diritto d’autore protegge la forma dell’espressione
+        creativa, a prescindere dal contenuto in essa racchiuso.
+        
+Tribunale di Milano, ordinanza 03.12.2019 (cautelare)
+        Satispay lamenta che l’app BILL SISALPAY costituisce un'esatta replica della propria app sia per profili funzionali sia per profili commerciali, compiuta attraverso             l'indebita ripetizione di:
+                - software, banca data e c.d. user esperience;
+                - innovative funzioni di volta in volta caricate da Satispay;
+                - scelte grafiche e linguistiche;
+                - modalità promozionali presso il pubblico
+                
+Tutetela Autoriale(PLAGIO):
+    * non sono oggetto di tutela né le funzionalità del programma né il linguaggio di programmazione; 
+    * la tutela autoriale dei programmi per elaboratore concerne unicamente la forma di espressione il suo aspetto formale, e non il contenuto ossia le idee, i
+    principi, i metodi e le tecniche o le formule, né tantomeno l'individuazione delle funzioni destinate a risolvere le esigenze dell'utente.
+
+Sebbene il Giudice accerti che l’App SATISPAY abbia un carattere creativo ed originale, idoneo a consentire l’accesso alla tutela autoriale, la CTU rileverà che l’app BILL SISAL PAY:
+    • è frutto di autonomo sviluppo e non qualificabile come opera derivata, quale codice sorgente, di quella di Satispay e che
+    • è dotata di una banca dati costituente un'opera originale e autonomamente costituita. 
+Per tali ragioni viene escluso il plagio. Si deve, infatti, presumere che l'operatore concorrente, senza avere avuto accesso al codice sorgente del programma, abbia osservato e
+sperimentato tale programma per riprodurne le funzionalità.
+
+CONCORRENZA SLEALE: 
+    *Satispay comunque ritiene che la condotta avversaria sia parassitaria, l'operatore sleale riprende in modo continuo e sistematico le sue scelte, ripercorrendo le medesime \     scelte e strategie commerciali, e tentando così di ottenere i medesimi risultati, senza però sostenere i costi delle scelte compiute dall'operatore leale. (per aversi           concorrenza sleale parassitaria, vanno considerate plurime e distinte scelte imprenditoriali del concorrente sleale).
+    
+    *Sul punto, il Giudice milanese ritiene che sia imputabile alla società titolare di BILL SISAL PAY una serie di condotte, nel loro complesso considerate, professionalmente       scorrette. Ed in particolare: 
+        a) la ripetizione del servizio di "budget settimanale"; 
+        b) l'identità letterale di intere parti del regolamento del servizio di cashback;  
+        c) la ripetizione di scelte terminologiche non necessitate, ed in particolare della denominazione commerciale della funzione di "cashback network", inventata  
+        dalla ricorrente;
+        d) l'impiego di slide del tutto analoghe a quelle di Satispay nella presentazione della propria App
+        
+    *Quindi, il Giudice ha ritenuto che Bill Sisal Pay si sia procurata in modo illecito un vantaggio concorrenziale con un indebito risparmio sui costi e sui tempi occorrenti.
+
+
 ============================================================================
 Lezione 4 (Posta Elettronica Certificata (PEC) / Contratti Telematici)
 
